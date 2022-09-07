@@ -18,49 +18,51 @@ Most units currently have four components:
    markers that the students fill in.
 * **Problems**:  These are more analytic problems, also done at home.
 
-The problem and lab solutions are provided to students enrolled in the class.
-If you are an instructor
-and wish copies of the solutions for yourself,
-please contact Sundeep Rangan at <srangan@nyu.edu>.
-
-This site is undergoing re-numbering of units, so many links may connect
-to documents that don't match the number of the unit.  We will fix these soon!
 
 * [Setting up python, jupyter and github](./Basics/setup.md)
-    * [Set up a local machine](./Basics/setup.md)
-    * [Set up a CPU or GPU virtual machine in Google Cloud Platform](./GCP/getting_started.md)    
-    * [Downloading the course material from github](./Basics/github.md)
-* Introduction
-    * Course Admin [[pdf]](./lectures/CourseAdmin.pdf) [[Powerpoint]](./lectures/CourseAdmin.pptx)
-* Unit 1:  What is machine learning? 
-    * Lecture:  Introduction to Machine Learning [[pdf]](./lectures/Lect01_IntroML.pdf)
-     [[Powerpoint]](./lectures/Lect01_IntroML.pptx)    
-     * [Demo:  Introduction to numpy vectors](./unit01_intro/demo_intro_vectors.ipynb)
+  * I would recommend using Google Colab unless you know what you are doing. [Google Colab](Colab.research.google.com)
+    * If you really want to setup a local machine look [here](./Basics/setup.md)
+
+* Syllabus 
+  * Syllabus [[pdf]](./lectures/Lect01_IntroML_F22.pptx) [[Powerpoint]](./lectures/CourseAdmin.pptx)
+
+* Unit 1:  What is machine learning?
+  * Lecture:  Introduction to Machine Learning [[pdf]](./lectures/Lect01_IntroML.pdf)
+     [[Powerpoint]](./lectures/Lect01_IntroML_F22.pptx)
+  * [Demo:  Introduction to numpy vectors](https://colab.research.google.com/drive/1iF2m8FY6ITNUNYujE7j45HcsKw5f7rBh)
+
 * Unit 2:  Simple linear regression
-    * Lecture:  Simple linear regression [[pdf]](./lectures/Lect02_SimpRegression.pdf)
-     [[Powerpoint]](./lectures/Lect02_SimpRegression.pptx)        
-    * [Demo:  Understanding automobile mpg](./unit02_simp_lin_reg/demo_auto_mpg.ipynb)
-    * [Lab: Boston housing data](./unit02_simp_lin_reg/lab_housing_partial.ipynb) 
-    * Problems [[pdf]](./unit02_simp_lin_reg/prob/prob_simp_lin_reg.pdf) [[Latex]](./unit02_simp_lin_reg/prob/prob_simp_lin_reg.tex)
+  * Lecture:  Simple linear regression [[pdf]](./lectures/Lect01_IntroML_F22.pdf)
+     [[Powerpoint]](./lectures/Lect01_IntroML_F22.pptx) 
+    * [Demo:  Understanding automobile mpg](https://colab.research.google.com/drive/1iIFWi73UBZqMLVDm5uS4yY4UT85Oopps)
+    * **Lab 1: Due Sept 14** [Lab: Boston housing data](https://colab.research.google.com/drive/1xqzBECzYKfdDdArqUYDnUq5Y5tUgMnxS)
+
+
 * Unit 3:  Multiple linear regression
-    * Lecture:  Multiple linear regression [[pdf]](./lectures/Lect03_MultLinRegression.pdf)
+  * Lecture:  Multiple linear regression [[pdf]](./lectures/Lect03_MultLinRegression.pdf)
      [[Powerpoint]](./lectures/Lect03_MultLinRegression.pptx)    
     * [Demo 1:  Predicting glucose levels](./unit03_mult_lin_reg/demo1_glucose.ipynb)
     * [Demo 2:  Python broadcasting](./unit03_mult_lin_reg/demo2_python_broadcasting.ipynb)
     * [Lab: Calibrating robot dynamics](./unit03_mult_lin_reg/lab_robot_calib_partial.ipynb)
     * Problems [[pdf]](./unit03_mult_lin_reg/prob/prob_mult_reg.pdf) [[Latex]](./unit03_mult_lin_reg/prob/prob_mult_reg.tex)
+
+
 * Unit 4:  Model selection
-    * Lecture:  Model selection [[pdf]](./lectures/Lect04_ModelSelection.pdf)
+  * Lecture:  Model selection [[pdf]](./lectures/Lect04_ModelSelection.pdf)
      [[Powerpoint]](./lectures/Lect04_ModelSelection.pptx)    
     * [Demo:  Polynomial order selection with cross-validation](./unit04_model_sel/demo_polyfit.ipynb)
     * [Lab: Neural decoding motor cortex signals](./unit04_model_sel/lab_neural_partial.ipynb)          
-    * Problems [[pdf]](./unit04_model_sel/prob/prob_model_sel.pdf) [[Latex]](./unit03_model_sel/hw/hw03_model_sel.tex)    
+    * Problems [[pdf]](./unit04_model_sel/prob/prob_model_sel.pdf) [[Latex]](./unit03_model_sel/hw/hw03_model_sel.tex)
+
+
 * Unit 5:  Regularization and LASSO
-    * Lecture:  LASSO Regularization [[pdf]](./lectures/Lect05_Lasso.pdf)
+  * Lecture:  LASSO Regularization [[pdf]](./lectures/Lect05_Lasso.pdf)
      [[Powerpoint]](./lectures/Lect05_Lasso.pptx)         
     * [Demo:  Finding predictors of prostate cancer](./unit05_lasso/demo_prostate.ipynb) 
     * [Lab: EEG source localization](./unit05_lasso/lab_eeg_partial.ipynb) 
     * Problems [[pdf]](./unit05_lasso/prob/prob_lasso.pdf) [[Latex]](./unit05_lasso/prob/prob_lasso.tex)
+
+
 * [Unit 6:  Logistic regression](./unit06_logistic/readme.md)
     * Lecture:  Linear classification and logistic regression
     [[pdf]](./lectures/Lect06_LogisticReg.pdf)
